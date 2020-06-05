@@ -78,20 +78,7 @@ footer {
   vertical-align: middle;
   align-items: center;
   text-align: center;
-  width: 500px;
-}
-
-a {
-  text-decoration: none;
-  color: #00f;
-}
-
-li a {
-  color: #000;
-}
-
-li a:hover {
-  text-decoration: underline;
+  width: 900px;
 }
 
 form p {
@@ -167,6 +154,11 @@ h2 {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: #00f;
+}
+
 h5,
 h5 a,
 h5 em {
@@ -178,6 +170,14 @@ h5 em {
 
 h5 a {
   color: blue;
+}
+
+li a {
+  color: #000;
+}
+
+li a:hover {
+  text-decoration: underline;
 }
 
 form {
@@ -194,16 +194,16 @@ form {
 }
 
 .li-footer {
-  display: inline-block;
-  float: left;
+  display: inline;
   width: 300px;
   padding: 5px;
 }
 
 .ul-footer {
   display: flex;
-  flex-wrap: nowrap;
-  width: 200px;
+  text-align: center;
+  width: 240px;
   align-content: center;
   vertical-align: middle;
+  padding: 0;
 }
